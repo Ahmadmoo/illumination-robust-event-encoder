@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local settings and secrets
+.env
+.env.*
+.DS_Store
+
+# Downloaded data; retain empty dataset folder placeholders
+/datasets/LLE-VOS/*
+!/datasets/LLE-VOS/.gitkeep
+/datasets/SDE/*
+!/datasets/SDE/.gitkeep
+
+# Training outputs and weights
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
